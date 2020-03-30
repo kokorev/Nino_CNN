@@ -7,8 +7,11 @@ This model presented here is based on the original idea by Yoo-Geun Ham, Jeong-H
 Model and prepared input data located in **nino_cnn** folder. It is known to work with python 3.6 and tensorflow 2. Also depends on netCDF4, pandas and numpy for reading the input. 
 
 **/data** - contain input data
+
 	**model.py** - contains function that return keras model.
+	
 	**reader.py** - contains class that feeds input data into the model
+	
 	**train.py** - runs the model
 	
 
