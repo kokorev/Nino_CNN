@@ -8,11 +8,11 @@ Model and prepared input data located in **nino_cnn** folder. It is known to wor
 
 **/data** - contain input data
 
-	**model.py** - contains function that return keras model.
+    **model.py** - contains function that return keras model.
 	
-	**reader.py** - contains class that feeds input data into the model
+    **reader.py** - contains class that feeds input data into the model
 	
-	**train.py** - runs the model
+    **train.py** - runs the model
 	
 
 ## Data Preparation
