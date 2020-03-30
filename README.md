@@ -15,9 +15,12 @@ The following training procedure is used. The model initially pre-trained using 
 
 ## Results
 Nino3.4 prediction (orange) and true values (blue)
+
 6-month lead time,  correlation - 0.88:
 ![alt text](https://github.com/kokorev/Nino_CNN/raw/master/img/prediction_6m_corr088.png "6-month lead time prediction")
+
 8-month lead time,  correlation - 0.80:
 ![alt text](https://github.com/kokorev/Nino_CNN/raw/master/img/prediction_8m_corr080.png "8-month lead time prediction")
+
 12-month lead time,  correlation - 0.60:
 ![alt text](https://github.com/kokorev/Nino_CNN/raw/master/img/prediction_12m_corr060.png "12-month lead time prediction")
