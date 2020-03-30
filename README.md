@@ -1,5 +1,16 @@
-# Nino3.4 forecasting
+# Convolutional Neural Network for long-range Nino3.4 index forecasting. 
+
 This model presented here is based on the original idea by Yoo-Geun Ham, Jeong-Hwan Kim, and Jing-Jia Luo [DOI:10.1038/s41586-019-1559-7](https://doi.org/10.1038/s41586-019-1559-7)
+
+## Running the model
+
+Model and prepared input data located in **nino_cnn** folder. It is known to work with python 3.6 and tensorflow 2. Also depends on netCDF4, pandas and numpy for reading the input. 
+
+**/data** - contain input data
+	**model.py** - contains function that return keras model.
+	**reader.py** - contains class that feeds input data into the model
+	**train.py** - runs the model
+	
 
 ## Data Preparation
 
