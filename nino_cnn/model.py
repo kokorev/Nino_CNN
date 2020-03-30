@@ -2,7 +2,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Dropout, Flatten, Dense, GaussianNoise, InputLayer
 
 
-def get_model(noise=0.1, nn_scale=8, lookback=4):
+def get_model(noise=False, nn_scale=8, lookback=4):
     sample_shape = (30, 64, 2*lookback) # lat, lon, channel
     model = Sequential()
     model.add(InputLayer(input_shape=sample_shape))
