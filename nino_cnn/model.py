@@ -2,7 +2,13 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Dropout, Flatten, Dense, GaussianNoise, InputLayer
 
 
-def get_model(noise=0.1, nn_scale=8, lookback=4):
+def get_model(noise=False, nn_scale=8, lookback=4):
+    """
+    :param noise: Standard deviation of Gaussian noise that adds to the input. Default - False, no noise added
+    :param nn_scale: multiplier that defines number of convolutional filters 4,8,16 works best
+    :param lookback: number of month of data used for input
+    :return:
+    """
     sample_shape = (30, 64, 2*lookback) # lat, lon, channel
     model = Sequential()
     model.add(InputLayer(input_shape=sample_shape))
